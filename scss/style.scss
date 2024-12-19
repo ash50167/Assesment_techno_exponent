@@ -2,8 +2,8 @@
 @import "./fonts";
 @import "./index";
 
-$primary-font: 'Arial', sans-serif;
-$default-font: 'lato', sans-serif;
+$primary-font: 'dm-sans', sans-serif;
+$default-font: 'Urbanist', sans-serif;
 
 
 html,
@@ -20,6 +20,7 @@ body {
     line-height: 29px;
     font-weight: 400;
     position: relative;
+    background: #F3FAFD;
 
     @media screen and (max-width: 768px) {
         font-size: 14px;
@@ -34,7 +35,7 @@ body {
     min-height: 100%;
 
     @media screen and (max-width: 420px) {
-        background: $white-ff;
+        background: #fff;
         height: auto;
     }
 }
@@ -49,7 +50,7 @@ h5 {
 }
 
 a {
-    color: $black-00;
+    color: #000;
     text-decoration: none;
     outline: 0;
 
@@ -82,7 +83,7 @@ input {
 }
 
 .md-container {
-    max-width: 1280px;
+    max-width: 1440px;
     width: 100%;
     position: relative;
     margin: 0 auto;
